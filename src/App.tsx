@@ -6,7 +6,7 @@ import Signup from './Signup';
 import Profile from './Profile';
 import Welcome from './Welcome';
 import Login from './Login';
-import ClientRegistation from './ClientRegistation';
+import ClientRegistration from './ClientRegistration';
 import VehicleOwner from './VehicleOwner';
 import ClientApplicationForm from './ClientApplicationForm';
 import VehicleFurbisherA1 from './VehicleFurbisherA1';
@@ -26,7 +26,7 @@ function MainApp() {
         <Route path="/welcome" element={<Welcome />} />
         <Route path="/" element={<Welcome />} />
         <Route path="/Login" element={<Login />} />
-        <Route path="/ClientRegistation" element={<ClientRegistation />} />
+        <Route path="/ClientRegistation" element={<ClientRegistration />} />
         <Route path="/VehicleOwner" element={<VehicleOwner />} />
         <Route path="/ClientApplicationForm" element={<ClientApplicationForm />} />
         <Route path="/VehicleFurbisherA1" element={<VehicleFurbisherA1 />} />
