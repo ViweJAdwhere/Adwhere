@@ -1,6 +1,6 @@
 import React, { ChangeEvent, FormEvent, useState } from 'react';
 
-const ClientPage = () => {
+const DriverPage = () => {
   const [showApplications, setShowApplications] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
@@ -24,7 +24,7 @@ const ClientPage = () => {
   };
 
   return (
-    <div className="client-page">
+    <div className="Driver-page">
       <div className="header">
         <div className="menu-icon">☰</div>
         <div className="search-bar">
@@ -32,27 +32,22 @@ const ClientPage = () => {
         </div>
       </div>
 
-      <h1 className="title">Client</h1>
+      <h1 className="title">Driver</h1>
 
-      <div className="button-group">
-        <button className="purple-button">New application</button>
-        <button className="purple-button" onClick={toggleApplications}>Resume application</button>
-        <button className="purple-button">View applications</button>
-        <button className="gray-button">Accepted Client</button>
-      </div>
+      <button className="purple-button" onClick={toggleApplications}>02DrJou902</button>
 
       {showApplications && (
         <div className="applications-popup">
           <ul>
-            <li>01CLA-p0807</li>
-            <li>02CLA-p0812</li>
-            <li>03CLA-p0818</li>
-            <li>04CLA-p0901</li>
+            <li>01DrJo0807</li>
+            <li>02DrJo0807</li>
+            <li>03DrJo0807</li>
+            <li>04DrJo0807</li>
           </ul>
         </div>
       )}
 
-      <div className="contact-form">
+<div className="contact-form">
         <h2>Contact Us</h2>
         <p>We'd love to hear from you! Whether you have a question about our services, need assistance with a booking, or just want to share your feedback, our team is here to help. Please fill out the form below, and we'll get back to you as soon as possible.</p>
         <form onSubmit={handleSubmit}>
@@ -79,4 +74,4 @@ const ClientPage = () => {
   );
 };
 
-export default ClientPage;
+export default DriverPage;
