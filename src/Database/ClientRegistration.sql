@@ -1,5 +1,4 @@
-CREATE DATABASE IF NOT EXISTS client_registration;
-USE client_registration;
+CREATE DATABASE client_registration;
 
 -- Clients table
 CREATE TABLE clients (
