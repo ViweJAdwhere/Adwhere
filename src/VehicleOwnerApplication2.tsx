@@ -225,9 +225,7 @@ const VehicleOwnerApplication2: React.FC = () => {
                     </div>
                     <div className="form-group-end">
                         <button type="button" className="save-button">Save</button>
-
                         <FaCar className="car-icon" onClick={handleSubmit}/>
-
                     </div>
                 </form>
             </div>

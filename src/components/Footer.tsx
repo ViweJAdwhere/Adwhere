@@ -9,11 +9,11 @@ const Footer: React.FC = () => {
             <div className="footer-content">
                 <img src="src/icons/icononly.png" alt="Logo" className="logo" />
                 <nav>
-                    <a href="#home">Home</a>
-                    <a href="#about">About us</a>
-                    <a href="#services">Services</a>
+                    <a href="HomePage.tsx">Home</a>
+                    <a href="src/AboutUs.tsx">About us</a>
+                    <a href="src/Services.tsx">Services</a>
                     <a href="#portfolio">Portfolio</a>
-                    <a href="#contact">Contact us</a>
+                    <a href="src/components/ContactUs.tsx">Contact us</a>
                 </nav>
                 <div className="social-icons">
                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
